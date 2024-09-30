@@ -63,7 +63,7 @@ def user_input(user_question):
     embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001",google_api_key="AIzaSyBcBbja2RjoY73qaWg-YpzbYTUv8FUbK1Q")
     
     
-    new_db = FAISS.load_local("faiss_index", embeddings,allow_dangerous_deserialization=True)
+    new_db = FAISS.load_local("faiss_index", embeddings)
     docs = new_db.similarity_search(user_question)
 
     chain = get_conversational_chain()
