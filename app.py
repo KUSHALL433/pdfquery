@@ -187,7 +187,7 @@ def search_articles(query):
     conn = http.client.HTTPSConnection("google-search72.p.rapidapi.com")
     
     headers = {
-        'x-rapidapi-key': "14f44c3385msh3b4f3febee40bccp14b5e0jsna88e85c14032", 
+        'x-rapidapi-key': "54e0b940ebmsh60f97c854a3a2f9p150b66jsnf34bb9935376", 
         'x-rapidapi-host': "google-search72.p.rapidapi.com"
     }
 
