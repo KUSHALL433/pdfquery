@@ -184,11 +184,11 @@ def user_input(user_question):
 
 
 def search_articles(query):
-    conn = http.client.HTTPSConnection("google-search72.p.rapidapi.com")
+    conn = http.client.HTTPSConnection("google-search74.p.rapidapi.com")
     
     headers = {
         'x-rapidapi-key': "54e0b940ebmsh60f97c854a3a2f9p150b66jsnf34bb9935376", 
-        'x-rapidapi-host': "google-search72.p.rapidapi.com"
+        'x-rapidapi-host': "google-search74.p.rapidapi.com"
     }
 
     query_encoded = quote(query)
