@@ -6,3 +6,4 @@ faiss-cpu
 google-generativeai
 pillow
 langchain-community
+http.client
